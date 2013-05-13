@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--
+        This is the short description of a permission associated with the
+        Bluetooth Share Manager. It is displayed as part of the description of
+        any application that was granted that permission. This specific
+        permission controls access to the Bluetooth Share Manager by
+        applications that initiate Bluetooth share.
+    -->
+    <string name="permlab_bluetoothShareManager">Käytä lataustenhallintaa.</string>
+    <!--
+        This is the long description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission. This specific
+        permission controls access to the Download Manager by applications
+        that initiate downloads.
+    -->
+    <string name="permdesc_bluetoothShareManager">Antaa sovelluksen käyttää Bluetooth-jaon hallintaa tiedostojen siirtoon.</string>
+
+    <string name="permlab_bluetoothWhitelist">Myönnä Bluetooth-laitteelle tilapäinen käyttöoikeus.</string>
+
+    <string name="permdesc_bluetoothWhitelist">Mahdollistaa tilapäisten käyttöoikeuksien myöntämisen Bluetooth-laitteelle, jolloin tiedostojen lähettäminen laitteesta tähän laitteeseen ei vaadi käyttäjän hyväksyntää.</string>
+
+    <!-- Strings used for a (system only) permission -->
+    <string name="permlab_handoverStatus">Vastaanota BT:n handover-siirtolähetyksiä.</string>
+    <string name="permdesc_handoverStatus">Sallii handover-siirtotietojen vastaanottamisen Bluetoothin välityksellä.</string>
+
+    <!-- string showed on "Share picutre via" dialog -->
+    <string name="bt_share_picker_label">Bluetooth</string>
+
+    <!-- string for "unknown device" -->
+    <string name="unknown_device">Tuntematon laite</string>
+
+    <!-- string for "unknown" phone number" -->
+    <string name="unknownNumber">Tuntematon</string>
+
+    <!-- string for "the title of airplane mode error" -->
+    <string name="airplane_error_title">Lentokonetila</string>
+    <!-- string for "error message in airplane mode" -->
+    <string name="airplane_error_msg">Et voi käyttää Bluetoothia lentokonetilassa.</string>
+
+    <!-- Activate Bluetooth Confirmation Dialog -->
+    <!--Title -->
+    <string name="bt_enable_title"></string>
+    <!--Line 1 -->
+    <string name="bt_enable_line1">Ota Bluetooth käyttöön käyttääksesi Bluetooth-palveluita.</string>
+    <!--Line 2 -->
+    <string name="bt_enable_line2">Otetaanko Bluetooth käyttöön nyt?</string>
+    <!-- Label for a cancel button. -->
+    <string name="bt_enable_cancel">Peruuta</string>
+    <!-- Label for a confirm button.-->
+    <string name="bt_enable_ok">Ota käyttöön</string>
+
+    <!-- Bluetooth File Transfer Acceptance Dialog -->
+    <!--Title -->
+    <string name="incoming_file_confirm_title">Tiedostonsiirto</string>
+    <!--content -->
+    <string name="incoming_file_confirm_content">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 haluaa lähettää sinulle tiedoston <xliff:g id="file">%2$s</xliff:g> (<xliff:g id="size">%3$s</xliff:g>). \n\n Hyväksytäänkö tiedosto?</string>
+    <!-- Label for a cancel button. -->
+    <string name="incoming_file_confirm_cancel">Hylkää</string>
+    <!-- Label for a confirm button.-->
+    <string name="incoming_file_confirm_ok">Hyväksy</string>
+    <!-- Label for timeout OK button.-->
+    <string name="incoming_file_confirm_timeout_ok">OK</string>
+    <!-- content for timeout-->
+    <string name="incoming_file_confirm_timeout_content">Aikakatkaisu hyväksyttäessä tiedostoa lähettäjältä \u0022<xliff:g id="sender">%1$s</xliff:g>\u0022</string>
+
+    <!-- Bluetooth File Transfer Acceptance Notification item -->
+    <string name="incoming_file_confirm_Notification_title">Bluetooth-jako: Saapuva tiedosto</string>
+    <string name="incoming_file_confirm_Notification_caption">Haluatko vastaanottaa tämän tiedoston?</string>
+    <string name="incoming_file_toast_msg">Saapuva tiedosto toisesta laitteesta. Vahvista, että haluat vastaanottaa tämän tiedoston.</string>
+
+    <!-- Inbound File Transfer Progress Notification item -->
+    <!-- label for the notification item of receiving file -->
+    <string name="notification_receiving">Bluetooth-jako: Vastaanotetaan tiedostoa <xliff:g id="file">%1$s</xliff:g></string>
+    <!-- label for the notification item of received file -->
+    <string name="notification_received">Bluetooth-jako: Tiedosto <xliff:g id="file">%1$s</xliff:g> vastaanotettu</string>
+    <!-- label for the notification item of failed receiving file -->
+    <string name="notification_received_fail">Bluetooth-jako: Tiedostoa <xliff:g id="file">%1$s</xliff:g> ei vastaanotettu</string>
+
+    <!-- Outbound File Transfer Progress Notification item -->
+    <!-- label for the notification item of sending file -->
+    <string name="notification_sending">Bluetooth-jako: Lähetetään tiedostoa <xliff:g id="file">%1$s</xliff:g></string>
+    <!-- label for the notification item of sent file -->
+    <string name="notification_sent">Bluetooth-jako: Tiedosto <xliff:g id="file">%1$s</xliff:g> lähetetty</string> 
+    <!-- label for the notification item of sent file -status --> 
+    <string name="notification_sent_complete">100 % valmis</string>
+    <!-- label for the notification item of failed sending file -->
+    <string name="notification_sent_fail">Bluetooth-jako: Tiedostoa <xliff:g id="file">%1$s</xliff:g> ei lähetetty</string>
+
+    <!-- Bluetooth Download Progress Dialog -->
+    <!--Title -->
+    <string name="download_title">Tiedostonsiirto</string>
+    <!--Line 1 -->
+    <string name="download_line1">Lähettäjä: \u0022<xliff:g id="sender">%1$s</xliff:g>\u0022</string>
+    <!--Line 2 -->
+    <string name="download_line2">Tiedosto: <xliff:g id="file">%1$s</xliff:g></string>
+    <!--Line 3 -->
+    <string name="download_line3">Tiedostokoko: <xliff:g id="size">%1$s</xliff:g></string>
+    <!--Line 4 -->
+    <string name="download_line4" />
+    <string name="download_line5">Vastaanotetaan tiedostoa\u2026</string>
+    <!-- Label for a cancel button. -->
+    <string name="download_cancel">Lopeta</string>
+    <!-- Label for a hide button.-->
+    <string name="download_ok">Piilota</string>
+
+    <!-- Bluetooth failed Download  Dialog -->
+    <!--Line 1  -->
+    <string name="download_fail_line1">Tiedostoa ei vastaanotettu</string>
+    <!--Line 2  -->
+    <string name="download_fail_line2">Tiedosto: <xliff:g id="file">%1$s</xliff:g></string>
+    <!--Line 3  -->
+    <string name="download_fail_line3">Syy: <xliff:g id="reason">%1$s</xliff:g></string>
+    <!-- Label for ok button.-->
+    <string name="download_fail_ok">OK</string>
+
+    <!-- Bluetooth Successful Download  Dialog -->
+    <!--Line 4 in "Bluetooth Download Progress Dialog" -->
+    <string name="download_succ_line5">Tiedosto vastaanotettu</string>
+    <!-- Label for a OK button.-->
+    <string name="download_succ_ok">Avaa</string>
+
+    <!-- Bluetooth Upload Progress Dialog -->
+    <string name="upload_line1">Vastaanottaja: \u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022</string>
+    <string name="upload_line3">Tiedostotyyppi: <xliff:g id="type">%1$s</xliff:g> (<xliff:g id="size">%2$s</xliff:g>)</string>
+    <string name="upload_line5">Lähetetään tiedostoa\u2026</string>
+
+    <!-- Bluetooth Successful Upload Progress Dialog -->
+    <!--Line 4 -->
+    <string name="upload_succ_line5">Tiedosto lähetetty</string>
+    <!-- Label for a confirm button.-->
+    <string name="upload_succ_ok">OK</string>
+
+    <!-- Bluetooth Failed Upload File Transfer Dialog -->
+    <string name="upload_fail_line1">Tiedostoa ei lähetetty vastaanottajalle \u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022.</string>
+    <string name="upload_fail_line1_2">Tiedosto: <xliff:g id="file">%1$s</xliff:g></string>
+    <!-- Label for a try again button.-->
+    <string name="upload_fail_ok">Yritä uudelleen</string>
+    <!-- Label for a cancel button.-->
+    <string name="upload_fail_cancel">Sulje</string>
+
+    <!-- Bluetooth error dialog -->
+    <string name="bt_error_btn_ok">OK</string>
+    <string name="unknown_file">Tuntematon tiedosto</string>
+    <string name="unknown_file_desc">Tämäntyyppisten tiedostojen käsittelemiseen tarvittavaa sovellusta ei ole asennettu. \n</string>
+    <string name="not_exist_file">Ei tiedostoa</string>
+    <string name="not_exist_file_desc">Tiedostoa ei ole. \n</string>
+
+    <!-- Bluetooth  Enabling progress dialog -->
+    <string name="enabling_progress_title">Odota\u2026</string>
+    <string name="enabling_progress_content">Otetaan Bluetooth käyttöön\u2026</string>
+
+    <!-- Bluetooth Toast Message -->
+    <string name="bt_toast_1">Tiedosto vastaanotetaan. Näet  siirron tilan Ilmoitukset-paneelista.</string>
+    <string name="bt_toast_2">Tiedostoa ei voi vastaanottaa.</string>
+    <string name="bt_toast_3">Tiedoston vastaanotto pysäytetty lähettäjältä \u0022<xliff:g id="sender">%1$s</xliff:g>\u0022</string>
+    <string name="bt_toast_4">Lähetetään tiedostoa vastaanottajalle \u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022</string>
+    <string name="bt_toast_5">Lähetetään <xliff:g id="number">%1$s</xliff:g> tiedostoa vastaanottajalle \u0022<xliff:g id="recipient">%2$s</xliff:g>\u0022</string>
+    <string name="bt_toast_6">Tiedoston lähetys pysäytetty vastaanottajalle \u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022</string>
+
+    <!-- Bluetooth System Messages [CHAR LIMIT=NONE] -->
+    <string name="bt_sm_2_1" product="nosdcard">USB-muistissa ei ole tarpeeksi tilaa. Tiedostoa lähettäjältä \u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 ei voi tallentaa.</string>
+    <!-- Bluetooth System Messages -->
+    <string name="bt_sm_2_1" product="default">SD-kortilla ei ole tarpeeksi tilaa. Tiedostoa lähettäjältä \u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 ei voi tallentaa.</string>
+    <string name="bt_sm_2_2">Tarvittava tila: <xliff:g id="size">%1$s</xliff:g></string>
+
+    <string name="ErrorTooManyRequests">Liian monta käsiteltävää pyyntöä. Yritä myöhemmin uudelleen.</string>
+
+    <!-- Bluetooth Transfer Failure Reason -->
+    <string name="status_pending">Tiedostonsiirtoa ei ole vielä aloitettu.</string>
+    <string name="status_running">Tiedostonsiirto on käynnissä.</string>
+    <string name="status_success">Tiedostonsiirto onnistui.</string>
+    <string name="status_not_accept">Sisältöä ei tueta.</string>
+    <string name="status_forbidden">Kohdelaite kieltää siirron.</string>
+    <string name="status_canceled">Käyttäjä peruutti siirron.</string>
+    <string name="status_file_error">Tallennusongelma.</string>
+    <!-- Shown when USB storage cannot be found.  [CHAR LIMIT=NONE] -->
+    <string name="status_no_sd_card" product="nosdcard">Ei USB-muistia.</string>
+    <string name="status_no_sd_card" product="default">Ei SD-korttia. Aseta SD-kortti tallentaaksesi siirretyt tiedostot.</string>
+    <string name="status_connection_error">Yhteys epäonnistui.</string>
+    <string name="status_protocol_error">Pyyntöä ei voi käsitellä oikein.</string>
+    <string name="status_unknown_error">Tuntematon virhe.</string>
+
+    <!-- Bluetooth OPP Live Folder -->
+    <string name="btopp_live_folder">Bluetooth, vastaanotettu</string>
+
+    <!-- Bluetooth OPP Transfer History -->
+    <string name="download_success"> <xliff:g id="file_size">%1$s</xliff:g> vastaanotto valmis.</string>
+    <string name="upload_success"> <xliff:g id="file_size">%1$s</xliff:g> lähetys valmis.</string>
+    <string name="inbound_history_title">Saapuvat siirrot</string>
+    <string name="outbound_history_title">Lähtevät siirrot</string>
+    <string name="no_transfers">Siirtohistoria on tyhjä.</string>
+    <string name="transfer_clear_dlg_msg">Koko lista tyhjennetään.</string>
+    <string name="outbound_noti_title">Bluetooth-jako: Lähetetyt tiedostot</string>
+    <string name="inbound_noti_title">Bluetooth-jako: Vastaanotetut tiedostot</string>
+    <string name="noti_caption"> <xliff:g id="successful_number">%1$s</xliff:g> onnistui, <xliff:g id="unsuccessful_number">%2$s</xliff:g> epäonnistui.</string>
+
+    <string name="transfer_menu_clear_all">Tyhjennä lista</string>
+    <string name="transfer_menu_open">Avaa</string>
+    <string name="transfer_menu_clear">Poista listalta</string>
+    <string name="transfer_clear_dlg_title">Poista</string>
+
+</resources>

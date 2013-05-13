@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hei maailma, toiminnan testaus</string>
+    <string name="app_name">Bluetooth-jako</string>
+    <string name="insert_record">Lisää tiedot</string>
+    <string name="update_record">Vahvista tiedot</string>
+    <string name="ack_record">Hyv. tiedot</string>
+    <string name="deleteAll_record">Poista kaikki tiedot</string>
+    <string name="ok_button">OK</string>
+    <string name="delete_record">Poista tiedot</string>
+    <string name="start_server">Käynnistä TCP-palvelin</string>
+    <string name="notify_server">Lähetä ilmoitus TCP-palvelimelle</string>
+</resources>
